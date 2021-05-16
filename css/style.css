@@ -1,0 +1,365 @@
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: #212121;
+  font-size: 14px;
+}
+
+:root {
+  --accent-color: #2196f3;
+  --text-grey-color: #757575;
+  --text-white-color: #ffffff;
+  --bgraund-grey-color: #2f303a;
+}
+
+.header {
+  background: white;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.border-header {
+  border: 1px solid #ececec;
+}
+/* components */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-menu,
+.list-contact,
+.list-contact-footer {
+  list-style: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-services,
+.header-our-team {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.list-our-team .header-item {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.list-our-team .text {
+  color: var(--text-grey-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.list-specifics .header-item {
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.list-specifics .text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-grey-color);
+}
+
+.address-footer {
+  font-style: normal;
+}
+
+.list-contact .link {
+  color: var(--text-grey-color);
+}
+
+.list-menu .link {
+  color: #212121;
+}
+
+.list-menu .current {
+  color: var(--accent-color);
+}
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.logo-white {
+  color: white;
+}
+
+.logo-black {
+  color: black;
+}
+.but-studio {
+  font-family: inherit;
+  font-style: normal;
+  border: none;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--text-white-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/*order_service*/
+
+.order-service {
+  background: var(--bgraund-grey-color);
+}
+
+.order-service-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-white-color);
+}
+
+/* footer */
+
+.webstudio-footer {
+  background: var(--bgraund-grey-color);
+}
+
+.list-contact-footer .link {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.list-contact-footer .address {
+  color: var(--text-white-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/* buttons */
+
+.but-portfolio {
+  font-family: inherit;
+  font-style: normal;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.but-portfolio:hover,
+.but-portfolio:focus {
+  background: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+  color: var(--text-white-color);
+}
+
+/* portfolio */
+
+.list-potrtfolio .header-item {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.list-potrtfolio .text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-grey-color);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header-container,
+.navigation,
+.list-menu,
+.list-contact {
+  display: flex;
+  align-items: center;
+}
+
+.header-container .logo {
+  margin-top: 24px;
+  margin-right: 93px;
+  margin-bottom: 25px;
+}
+.menu-item {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-container {
+  justify-content: space-between;
+}
+
+.order-service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 94px;
+}
+.order-service-header {
+  margin-left: 252px;
+  margin-right: 252px;
+  margin-top: 200px;
+  margin-bottom: 15px;
+}
+
+.but-studio {
+  margin-top: 15px;
+  margin-bottom: 200px;
+  padding: 10px 32px 10px 32px;
+}
+
+.list-specifics {
+  display: flex;
+  align-items: center;
+}
+
+.specifics-container {
+  margin-bottom: 94px;
+}
+
+.specifics-item {
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 270px;
+}
+
+.list-specifics h3 {
+  margin-bottom: 10px;
+}
+
+.services-container {
+  margin-bottom: 94px;
+}
+.list-services {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.services-item {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.header-services {
+  margin-bottom: 50px;
+}
+
+.our-team {
+  background: #f5f4fa;
+}
+.container-foto {
+  background: var(--text-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-our-team {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.list-our-team {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  margin-bottom: 94px;
+}
+.container-foto {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.container-foto .header-item {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.container-foto .text {
+  margin-bottom: 30px;
+}
+
+.webstudio-footer-container {
+  display: flex;
+  flex-direction: column;
+}
+.webstudio-footer-container .logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.contact-footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
