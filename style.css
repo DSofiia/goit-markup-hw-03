@@ -154,7 +154,6 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-white-color);
@@ -238,40 +237,37 @@ img {
 }
 
 .header-container .logo {
-  margin-top: 24px;
+  padding-top: 24px;
   margin-right: 93px;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
 }
 .menu-item {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .menu-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-container {
-  justify-content: space-between;
+.order-service {
+  padding-top: 200 px;
+  padding-bottom: 200 px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-.order-service-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 94px;
-}
 .order-service-header {
-  margin-left: 252px;
-  margin-right: 252px;
-  margin-top: 200px;
-  margin-bottom: 15px;
+  margin: 0 auto;
+  max-width: 696px;
+  margin-bottom: 30px;
 }
 
 .but-studio {
-  margin-top: 15px;
-  margin-bottom: 200px;
   padding: 10px 32px 10px 32px;
+}
+
+.order-service-container {
 }
 
 .list-specifics {
@@ -357,9 +353,13 @@ img {
   flex-direction: column;
 }
 .webstudio-footer-container .logo {
-  margin-top: 60px;
-  margin-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 .contact-footer-item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.main-section-container {
+  display: flex;
 }
