@@ -236,10 +236,6 @@ img {
   align-items: center;
 }
 
-.header-container {
-  display: flex;
-}
-
 .header .list-contact {
   margin-left: auto;
 }
@@ -249,7 +245,8 @@ img {
   margin-right: 93px;
   padding-bottom: 25px;
 }
-.menu-item {
+.navigation-link,
+.list-contact .link{
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -326,11 +323,13 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
   background: var(--text-white-color);
+
+}
+.our-team-item{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .header-our-team {
   margin-bottom: 50px;
 }
@@ -351,13 +350,14 @@ img {
   margin-bottom: 10px;
 }
 
-.webstudio-footer-container {
-  display: flex;
-  flex-direction: column;
-}
-.webstudio-footer-container .logo {
+.webstudio-footer{
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
+}
+
+.webstudio-footer-container .logo {
+  display: block;
+  margin-bottom: 20px;
 }
 .contact-footer-item:not(:last-child) {
   margin-bottom: 9px;
@@ -409,9 +409,8 @@ img {
 
 .list-potrtfolio-item-text {
   background-color: var(--text-white-color);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
+  padding: 20px 24px;
+   
   border: 1px;
   border-style: none solid solid solid;
   border-color: #eeeeee;
