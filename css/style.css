@@ -9,6 +9,7 @@ body {
   --text-grey-color: #757575;
   --text-white-color: #ffffff;
   --bgraund-grey-color: #2f303a;
+  --text-dark-color: #212121;
 }
 
 .header {
@@ -105,7 +106,7 @@ img {
 }
 
 .list-menu .link {
-  color: #212121;
+  color: var(--text-dark-color);
 }
 
 .list-menu .current {
@@ -240,16 +241,15 @@ img {
   margin-left: auto;
 }
 
-.header-container .logo {
+.header{
   padding-top: 24px;
-  margin-right: 93px;
   padding-bottom: 25px;
 }
-.navigation-link,
-.list-contact .link{
-  padding-top: 32px;
-  padding-bottom: 32px;
+
+.header-container .logo {
+  margin-right: 93px;
 }
+
 
 .menu-item:not(:last-child) {
   margin-right: 50px;
